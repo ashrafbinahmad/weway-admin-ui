@@ -5,7 +5,7 @@ import type {
   DbVendor,
   DbBooking,
   DbUser,
-} from "@backend/db/schema";
+} from "../shared/db-types";
 
 // Get backend URL from env or fallback to local port 3001
 const API_BASE_URL =

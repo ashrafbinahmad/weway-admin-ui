@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@backend': path.resolve(__dirname, '../src')
+      '@backend': path.resolve(__dirname, '../weway-backend/src')
     }
   }
 })
